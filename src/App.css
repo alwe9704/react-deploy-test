@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+.monster-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  margin: 1rem
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
