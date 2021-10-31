@@ -66,6 +66,7 @@ class App extends Component<{}, {monsters: Monster[], searchString: string}> {
   render() {
     return (
       <div className="App">
+        <h1>Monsterdeck</h1>
         <div>
           <SearchField 
             handleChange={e => this.setState({searchString: e})}
